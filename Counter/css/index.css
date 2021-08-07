@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(46, 44, 44);
+    font-size: 5rem;
+}
+
+body > div {
+    color: white;
+    display: inline-block;
+}
+
+body button {
+    background-color: grey;
+    outline: none;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    height: 50px;
+    transition: background-color 200ms;
+    transition: transform 100ms;
+    text-transform: uppercase;
+    border: 3px solid rgb(109, 95, 95);
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+body button:hover {
+    background-color: lightgray;
+    transform: scale(0.9 , 0.9);
+}
+
+body button:active {
+    background-color: rgb(109, 95, 95);
+    transform: scale(1   , 1);
+}
+
+#previous-entries {
+    display: block;
+    color: white;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: #264653;
+    color: #e9c46a;
+    font-size: 4rem;
+}
+
+body > label {
+    border-bottom: 4px dotted #e9c46a;
+}
+
+body > button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-transform:uppercase;
+    border: 3px solid #2a9d8f;
+    color: #2a9d8f;
+    transition: background-color 300ms, transition 100ms;
+}
+
+body > button:hover {
+    background-color: #2a9d8f;
+    color: #e9c46a;
+}
+
+body > button:active {
+    transform: scale(0.95 , 0.95);
+
+}
